@@ -92,13 +92,13 @@ nav ul li {
 }
 
 .play-btn {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.861);
     color: black;
 }
 
 .info-btn {
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid white;
+    border: 1px solid rgb(252, 244, 244);
 }
 
 .footer {
@@ -280,6 +280,9 @@ footer {
         overflow: auto;
 
     }
+    .play-btn{
+        color: black;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -303,6 +306,9 @@ footer {
         font-size: 10px;
         padding: 8px 15px;
     }
+    .play-btn{
+        color: black;
+    }
 
     .images img {
         width: 100px;
@@ -318,7 +324,7 @@ footer {
     
 
     .menu img {
-        width: 6vw;
+        width: 4vw;
     }
     .nav-bar,.menu{
         flex-direction: row;
